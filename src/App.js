@@ -44,9 +44,8 @@ class App extends React.Component {
             id="editor"
             onChange={this.handleChange}
             className="col-5 rounded"
-          >
-            {initialMarkdown}
-          </textarea>
+            value={initialMarkdown}
+          ></textarea>
           <div id="preview" className="col-5 border border-secondary rounded">
             <ReactMarkdown>{this.state.input}</ReactMarkdown>
           </div>
