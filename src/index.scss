@@ -1,6 +1,14 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 body {
+  background: linear-gradient($blue-200, $purple-200);
+}
+
+code {
+  background-color: $gray-300;
+}
+
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -24,9 +32,17 @@ code {
 }
 
 #preview-area {
-  height: 60%;
+  min-height: 60%;
+}
+
+#preview {
+  @extend .bg-light;
 }
 
 img {
   width: 20%;
+}
+
+#title {
+  font-size: 45px;
 }

@@ -7,4 +7,3 @@
 ## To Do
 
 - make the page look nicer
-- make sure line breaks work properly
