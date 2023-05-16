@@ -36,7 +36,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="app-area" className="m-auto col-9">
-        <h1 id="title" className="text-center">
+        <h1 id="title" className="text-center mb-3">
           Markdown Preview
         </h1>
         <div id="preview-area" className="row justify-content-around">
