@@ -4,20 +4,15 @@ import ReactMarkdown from "react-markdown";
 const initialMarkdown = `# Preview
 Welcome to the markdown previewer, enter any valid GitHub style markdown here to see it in html on the preview on the right
 
-## \`Code\` blocks
-\`\`\`
-let codeblock = "\`\`\`"
-\`\`\`
-
 See a great survey of **GitHub** markdown [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## Why use it?
-- see markdown as you write it
+- see result as you write markdown
 - satiate your curiosity
 - breath easy knowing that computers will do work for you
 
 ## Reviews from users
-> This tool is great!! I have never seen my html just appear while I wrote plain text like that!! \n
+> This tool is great!! I have never seen my formatted text just appear while I wrote markup like that!! \n
 ![generic user](https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80)`;
 
 class App extends React.Component {
